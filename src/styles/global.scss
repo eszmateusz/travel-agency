@@ -20,4 +20,23 @@ a, a:hover, a:visited {
   text-decoration: none;
 }
 
+.switchWrapper { // na podstawie app.scss z start-with-react
+  position: relative;
+
+  > :first-child ~ * {
+    position: absolute;
+    width: 100%;
+    animation: slide 1s ease-in-out;
+  }
+
+  @keyframes slide { // definiowanie animacji 
+    0% {
+      top: 200px; 
+    }
+    100% {
+      top: 0px;
+    }
+  }
+}
+
 @import "./typography.scss";
