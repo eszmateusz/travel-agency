@@ -1,12 +1,20 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styles from './OrderSummary.scss';
 
-const OrderSummary = () => {
+import { calculateTotal } from '../../../utils/calculateTotal';
+import { formatPrice } from '../../../utils/formatPrice';
+
+const OrderSummary = ({tripCost, options}) => {
+  const priceTrip = calculateTotal(formatPrice(tripCost), options); 
   return (
-    <h2 className={styles.component}>
-    Total: <strong>$12,345</strong>
-    </h2>
+    <h2 className={styles.component}>Total: ${priceTrip}</h2>
   );
+};
+
+OrderSummary.propTypes = {
+  tripCost: PropTypes.string,
+  options: PropTypes.object,
 };
 
 export default OrderSummary; 
