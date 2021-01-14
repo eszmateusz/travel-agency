@@ -37,7 +37,6 @@ OrderOptionIcons.propTypes = {
   required: PropTypes.bool,
   currentValue: PropTypes.string,
   setOptionValue: PropTypes.func,
-  formatPrice: PropTypes.func,
 };
 
 export default OrderOptionIcons;
