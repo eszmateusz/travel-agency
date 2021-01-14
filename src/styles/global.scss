@@ -26,7 +26,7 @@ a, a:hover, a:visited {
   > :first-child ~ * {
     position: absolute;
     width: 100%;
-    animation: slide 1s ease-in-out;
+    animation: slide .85s ease-in-out;
   }
 
   @keyframes slide { // definiowanie animacji 

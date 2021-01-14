@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {Link} from 'react-router-dom';
-import styles from './TripSummary.scss';
 import {Col} from 'react-flexbox-grid';
+
+import styles from './TripSummary.scss';
 
 const TripSummary = ({id, image, name, cost, days, tags}) => (
   <Col xs={12} sm={6} lg={4} className={styles.column}>
