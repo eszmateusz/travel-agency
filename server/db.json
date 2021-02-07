@@ -357,6 +357,23 @@
       "tripName": "Pleasant travel in cool Turkey",
       "tripCode": "TUR",
       "id": 24
+    },
+    {
+      "car-rental": "suv",
+      "accommodation": "house",
+      "features": [
+        "kitchen"
+      ],
+      "adults": "3",
+      "children": "2",
+      "name": "Lucky",
+      "contact": "415584475",
+      "start-date": "2021-02-23T23:00:00.000Z",
+      "totalCost": "$462,941",
+      "tripId": "5cc1d10162f0f1af674aaf17",
+      "tripName": "Fabulous outing in awesome United Arab Emirates",
+      "tripCode": "ARE",
+      "id": 25
     }
   ]
 }
