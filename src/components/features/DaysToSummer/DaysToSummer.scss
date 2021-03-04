@@ -1,0 +1,12 @@
+.component {
+  position: relative;
+  text-align: center;
+  color: #59ee1e;
+  font-size: 30px;
+
+  .description {
+    position: absolute;
+    width: 100%;
+    bottom: 220px;
+  }
+}
